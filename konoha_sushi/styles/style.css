@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #F6F5F0;
+    color: #1E1C22;
+    font-family: 'Roboto Condensed', sans-serif, Arial, Helvetica, Verdana;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.main_content {
+    padding-top: 106px;
+}
+
+.main_banner {
+    background: center no-repeat;
+    background-size: cover;
+    background-image: url(/konoha_sushi/image/4_sushi.jpg);
+}
+
+.main_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main_banner-txt {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.main_banner-txt h1 {
+    font-family: "Neucha";
+}
+
+.advantages {
+    padding: 25px 0 35px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.advantages .h2 {
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    color: #C0B99A;
+}
+
+.h2 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+    color: #817E71;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+h2, .h2 {
+    font-size: 30px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    h2, .h2 {
+        font-size: 35px;
+        line-height: 1;
+    }
+    }
+
+.advantages .main_container>p {
+        margin-top: 0px;
+        margin-bottom: 40px;
+        font-size: 12px;
+}
+
+.advantages_inner {
+    display: flex;
+    margin: 0 -12px;    
+}
+
+.advatages_col {
+    width: 33.33333%;
+    margin-bottom: 24px;
+    padding: 0 12px;
+}
+
+.advatages_tt1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #817E71;
+    font-weight: 700;
+}
+
+.advatages_col p {
+    font-size: 12px;
+}
+
+.advatages_right {
+    font-size: 16px;
+    padding-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.color-green {
+    font-size: 22px;
+    display: block;
+    color: #608B26;
+}
+
+.color-orange {
+    color: rgb(255, 60, 0);
+}
+
+.cnt {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.cnt h2 {
+    margin-bottom: 6px;
+    color: #817E71;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 8px 0;
+    background-color: #E2E0D8;
+}
+
+.footer .main_container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.footer_centr {
+    width: 25%;
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 109px;
+}
+
+.copyright {
+    margin-bottom: 5px;
+}
+
+.social_footer {
+border-radius: 20px;
+width: 40px;
+height: 40px;
+padding: 5px;
+}
+
+.social_footer:hover {
+    background-color:#817e71ab;
+    }
+
+.slick-dots {
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 0;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active div {
+    background-color: #fff;
+}
+
+.slick-dots li div {
+    display: block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    color: transparent;
+    border: 3px solid #817E71;
+    border-radius: 50%;
+    outline: none;
+    background-color: #817E71;
+}
